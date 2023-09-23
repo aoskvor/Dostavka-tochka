@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+		<meta name="description" content="Page Description">
+		<meta name="keywords" content="Page keywords">
+		<meta name="format-detection" content="telephone=no">
+		<title>Товары и точка</title>
+		<link rel="stylesheet" href="./css/main.css?v=1695368022582">
+	</head>
+	<body><!-- START SITE  -->
+		<div class="site"><!-- HEADER Start -->
+			<header class="header">
+				<div class="container"> 
+					<div class="header__wrapper">
+						<div class="header__block">
+							<button class="header__burger button js-burger" type="button"></button><a class="header__logo" href="/">Товары <br>и точка</a>
+						</div>
+						<div class="header__search">
+							<form class="form-search" action="/">
+								<div class="form-group">
+									<input class="form-search__input" id="search" type="text" name="search" placeholder="Я ищу...">
+									<label class="form-search__label" for="search">
+										<svg class="form-search__icon">
+											<use xlink:href="./images/sprites.svg#search"></use>
+										</svg>
+									</label>
+								</div>
+							</form>
+						</div>
+						<div class="header__links"><a class="header-link" href="#">
+								<div class="header-link__header">
+									<svg class="header-link__icon">
+										<use xlink:href="./images/sprites.svg#profile"></use>
+									</svg>
+								</div>
+								<div class="header-link__text">Профиль</div></a><a class="header-link" href="#">
+								<div class="header-link__header">
+									<svg class="header-link__icon">
+										<use xlink:href="./images/sprites.svg#basket"></use>
+									</svg><span class="header-link__count count-circle">3</span>
+								</div>
+								<div class="header-link__text">Корзина</div></a></div>
+					</div>
+				</div>
+			</header>
+			<header class="header-mobile">
+				<div class="container">
+					<nav class="header-mobile__menu">
+						<ul class="header-mobile__lists">
+							<li class="header-mobile__list"><a class="header-mobile__link" href="/">
+									<svg class="header-mobile__icon">
+										<use xlink:href="./images/sprites.svg#home"></use>
+									</svg></a></li>
+							<li class="header-mobile__list"><a class="header-mobile__link" href="/catalog.html">
+									<svg class="header-mobile__icon">
+										<use xlink:href="./images/sprites.svg#catalog"></use>
+									</svg></a></li>
+							<li class="header-mobile__list"><a class="header-mobile__link is-active" href="/basket.html"><span class="header-mobile__count count-circle">3</span>
+									<svg class="header-mobile__icon">
+										<use xlink:href="./images/sprites.svg#basket"></use>
+									</svg></a></li>
+							<li class="header-mobile__list"><a class="header-mobile__link" href="/favorites.html">
+									<svg class="header-mobile__icon">
+										<use xlink:href="./images/sprites.svg#favorites"></use>
+									</svg></a></li>
+							<li class="header-mobile__list"><a class="header-mobile__link" href="/profile.html">
+									<svg class="header-mobile__icon">
+										<use xlink:href="./images/sprites.svg#profile"></use>
+									</svg></a></li>
+						</ul>
+					</nav>
+				</div>
+			</header><!-- HEADER End --><!-- START MAIN  -->
+			<main class="main">
+				<div class="content">
+					<div class="container">
+						<form class="content__form" action="/" data-form>
+							<div class="content__grid">
+								<section class="content__section">
+									<h2 class="content__title">Корзина</h2>
+									<div class="content__accardions">
+										<div class="content__accardion accardion">
+											<div class="accardion__header">
+												<div class="accardion__checkbox">
+													<input id="select-all" type="checkbox" name="all" hidden>
+													<label class="form-checkbox" for="select-all">Выбрать все</label>
+												</div>
+												<div class="accardion__info">266 товаров · 2 100 569 сом</div>
+												<svg class="accardion__icon">
+													<use xlink:href="./images/sprites.svg#arrow-down"></use>
+												</svg>
+											</div>
+											<div class="accardion__body">
+												<div class="cart">
+													<div class="cart__checkbox"> 
+														<input class="js-checkbox" type="checkbox" name="product[]" id="0" hidden="hidden"/>
+														<label class="form-checkbox form-checkbox--white" for="0"></label>
+													</div>
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-1.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">522 сом</b>
+																<strike class="cart__discount tooltip">1051 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Футболка UZcotton мужская</a>
+															<ul class="cart__lists">
+																<li class="cart__list">Цвет: белый</li>
+																<li class="cart__list">Размер: 56</li>
+															</ul>
+															<div class="cart__company">Коледино WB</div>
+															<div class="cart__address">OOO Вайлдберриз<a class="tooltip tooltip-info" href="javascript:void(0);">
+																	<svg class="tooltip__icon">
+																		<use xlink:href="./images/sprites.svg#info"></use>
+																	</svg>
+																	<div class="tooltip__body">
+																		<h3 class="tooltip__title">OOO «МЕГАПРОФСТИЛЬ»</h3>
+																		<div class="tooltip__content"><p>ОГРН: 5167746237148</p><p>129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34</p></div>
+																	</div></a></div>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="count-action">
+																<button class="count-action--minus js-action-minus" type="button"></button>
+																<input class="count-action--count js-action-value" type="text" disabled="disabled" value="1"/>
+																<button class="count-action--plus js-action-plus" type="button"></button>
+															</div>
+															<div class="cart__left text-red">Осталось 2 шт.</div>
+															<div class="cart__links"><a class="cart__like is-active" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices"><b class="cart__price">522 сом</b>
+															<strike class="cart__discount tooltip">1051 сом
+																<div class="tooltip__body">
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка 55%</div>
+																		<div class="tooltip__discount">−300 сом</div>
+																	</div>
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка покупателя 10%</div>
+																		<div class="tooltip__discount">−30 сом</div>
+																	</div>
+																</div>
+															</strike>
+														</div>
+													</div>
+												</div>
+												<div class="cart">
+													<div class="cart__checkbox"> 
+														<input class="js-checkbox" type="checkbox" name="product[]" id="1" hidden="hidden"/>
+														<label class="form-checkbox form-checkbox--white" for="1"></label>
+													</div>
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-2.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">2 100 047 сом</b>
+																<strike class="cart__discount tooltip">2 300 047 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe</a>
+															<ul class="cart__lists">
+																<li class="cart__list">Цвет: прозрачный</li>
+															</ul>
+															<div class="cart__company">Коледино WB</div>
+															<div class="cart__address">OOO Мегапрофстиль<a class="tooltip tooltip-info" href="javascript:void(0);">
+																	<svg class="tooltip__icon">
+																		<use xlink:href="./images/sprites.svg#info"></use>
+																	</svg>
+																	<div class="tooltip__body">
+																		<h3 class="tooltip__title">OOO «МЕГАПРОФСТИЛЬ»</h3>
+																		<div class="tooltip__content"><p>ОГРН: 5167746237148</p><p>129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34</p></div>
+																	</div></a></div>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="count-action">
+																<button class="count-action--minus js-action-minus" type="button"></button>
+																<input class="count-action--count js-action-value" type="text" disabled="disabled" value="200"/>
+																<button class="count-action--plus js-action-plus" type="button"></button>
+															</div>
+															<div class="cart__links"><a class="cart__like" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices"><b class="cart__price cart__price--small">2 100 047 сом</b>
+															<strike class="cart__discount tooltip">2 300 047 сом
+																<div class="tooltip__body">
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка 55%</div>
+																		<div class="tooltip__discount">−300 сом</div>
+																	</div>
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка покупателя 10%</div>
+																		<div class="tooltip__discount">−30 сом</div>
+																	</div>
+																</div>
+															</strike>
+														</div>
+													</div>
+												</div>
+												<div class="cart">
+													<div class="cart__checkbox"> 
+														<input class="js-checkbox" type="checkbox" name="product[]" id="2" hidden="hidden"/>
+														<label class="form-checkbox form-checkbox--white" for="2"></label>
+													</div>
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-3.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">494 сом</b>
+																<strike class="cart__discount tooltip">950 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell</a>
+															<div class="cart__company">Коледино WB</div>
+															<div class="cart__address">OOO Вайлдберриз<a class="tooltip tooltip-info" href="javascript:void(0);">
+																	<svg class="tooltip__icon">
+																		<use xlink:href="./images/sprites.svg#info"></use>
+																	</svg>
+																	<div class="tooltip__body">
+																		<h3 class="tooltip__title">OOO «МЕГАПРОФСТИЛЬ»</h3>
+																		<div class="tooltip__content"><p>ОГРН: 5167746237148</p><p>129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34</p></div>
+																	</div></a></div>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="count-action">
+																<button class="count-action--minus js-action-minus" type="button"></button>
+																<input class="count-action--count js-action-value" type="text" disabled="disabled" value="2"/>
+																<button class="count-action--plus js-action-plus" type="button"></button>
+															</div>
+															<div class="cart__left text-red">Осталось 2 шт.</div>
+															<div class="cart__links"><a class="cart__like" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices"><b class="cart__price">494 сом</b>
+															<strike class="cart__discount tooltip">950 сом
+																<div class="tooltip__body">
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка 55%</div>
+																		<div class="tooltip__discount">−300 сом</div>
+																	</div>
+																	<div class="tooltip__list">
+																		<div class="tooltip__text">Скидка покупателя 10%</div>
+																		<div class="tooltip__discount">−30 сом</div>
+																	</div>
+																</div>
+															</strike>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="content__accardion accardion">
+											<div class="accardion__header">
+												<div class="accardion__info">Отсутствуют · 3 товара</div>
+												<svg class="accardion__icon">
+													<use xlink:href="./images/sprites.svg#arrow-down"></use>
+												</svg>
+											</div>
+											<div class="accardion__body">
+												<div class="cart cart--disabled">
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-1.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">522 сом</b>
+																<strike class="cart__discount tooltip">1051 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Футболка UZcotton мужская</a>
+															<ul class="cart__lists">
+																<li class="cart__list">Цвет: белый</li>
+																<li class="cart__list">Размер: 56</li>
+															</ul>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="cart__links"><a class="cart__like is-active" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices">
+														</div>
+													</div>
+												</div>
+												<div class="cart cart--disabled">
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-2.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">2 100 047 сом</b>
+																<strike class="cart__discount tooltip">2 300 047 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe</a>
+															<ul class="cart__lists">
+																<li class="cart__list">Цвет: прозрачный</li>
+															</ul>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="cart__links"><a class="cart__like" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices">
+														</div>
+													</div>
+												</div>
+												<div class="cart cart--disabled">
+													<div class="cart__block"><img class="cart__image" src="./images/content/product-3.png" alt="" width="80" height="106"/>
+														<div class="cart__row">
+															<div class="cart__prices--mobile"><b class="cart__price">494 сом</b>
+																<strike class="cart__discount tooltip">950 сом
+																	<div class="tooltip__body">
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка 55%</div>
+																			<div class="tooltip__discount">−300 сом</div>
+																		</div>
+																		<div class="tooltip__list">
+																			<div class="tooltip__text">Скидка покупателя 10%</div>
+																			<div class="tooltip__discount">−30 сом</div>
+																		</div>
+																	</div>
+																</strike>
+															</div><a class="cart__title" href="#">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell</a>
+														</div>
+													</div>
+													<div class="cart__actions">
+														<div class="cart__action">
+															<div class="cart__links"><a class="cart__like" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#like"></use>
+																	</svg></a><a class="cart__delete" href="#">
+																	<svg>
+																		<use xlink:href="./images/sprites.svg#delete"></use>
+																	</svg></a></div>
+														</div>
+														<div class="cart__prices">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="content__items">
+										<div class="delivery-block block">
+											<div class="delivery-block__col">
+												<div class="delivery-block__header">
+													<div class="delivery-block__title">Способ доставки</div><a class="delivery-block__link" href="javascript:void(0);" data-micromodal-trigger="modal-deliver">Изменить</a>
+												</div>
+												<div class="delivery-block__body">
+													<div class="delivery-block__item"><b class="delivery-block__text">Пункт выдачи</b>
+														<div class="delivery-block__address">
+															<p class="delivery-block__text">Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
+															<div class="delivery-block__rating">
+																<div class="rating">
+																	<svg class="rating__icon">
+																		<use xlink:href="./images/sprites.svg#star"></use>
+																	</svg>4.99
+																</div><span>Ежедневно с 10 до 21</span>
+															</div>
+														</div>
+													</div>
+													<div class="delivery-block__item"><b class="delivery-block__text">Стоимость доставки</b>
+														<p class="delivery-block__text">Бесплатно</p>
+													</div>
+													<div class="delivery-block__item"><b class="delivery-block__text">5—6 февраля</b>
+														<div class="delivery-block__gallery">
+															<div class="delivery-block__image"><img src="./images/content/product-1.png" alt=""></div>
+															<div class="delivery-block__image"><img src="./images/content/product-2.png" alt="">
+																<div class="delivery-block__count count-circle">184</div>
+															</div>
+															<div class="delivery-block__image"><img src="./images/content/product-3.png" alt="">
+																<div class="delivery-block__count count-circle">2</div>
+															</div>
+														</div>
+													</div>
+													<div class="delivery-block__item"><b class="delivery-block__text">7—8 февраля</b>
+														<div class="delivery-block__gallery">
+															<div class="delivery-block__image"><img src="./images/content/product-2.png" alt="">
+																<div class="delivery-block__count count-circle">16</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="delivery-block__col">
+												<div class="check-block">Обратная доставка товаров на склад при отказе —
+													<div class="check-block__tooltip text-green tooltip">бесплатно
+														<div class="tooltip__body">Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="delivery-block block">
+											<div class="delivery-block__col">
+												<div class="delivery-block__header">
+													<div class="delivery-block__title">Способ оплаты</div><a class="delivery-block__link" href="javascript:void(0);" data-micromodal-trigger="modal-cart">Изменить</a>
+												</div>
+												<div class="delivery-block__body">
+													<div class="delivery-card">
+														<div class="js-append-card">
+															<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/mir.svg" alt="mir" width="30" height="10">
+																<div class="delivery-card__info">
+																	<div class="delivery-card__number">1234 56•• •••• 1234</div>
+																	<div class="delivery-card__date">01/30</div>
+																</div>
+															</div>
+														</div>
+														<div class="delivery-card__desc">Спишем оплату с карты при получении</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="delivery-block block">
+											<div class="delivery-block__col">
+												<div class="delivery-block__header">
+													<div class="delivery-block__title">Получатель</div>
+												</div>
+												<div class="delivery-block__body">
+													<div class="delivery-form">
+														<div class="delivery-form__6">
+															<div class="form-group" data-field-holder>
+																<input class="form-input" type="text" name="name" id="name" required>
+																<label class="form-label" for="name">Имя</label><span class="form-error" data-field-error></span>
+															</div>
+														</div>
+														<div class="delivery-form__6">
+															<div class="form-group" data-field-holder>
+																<input class="form-input" type="text" name="surname" id="surname" required>
+																<label class="form-label" for="surname">Фамилия</label><span class="form-error" data-field-error></span>
+															</div>
+														</div>
+														<div class="delivery-form__4">
+															<div class="form-group" data-field-holder>
+																<input class="form-input" type="email" name="email" id="email" required>
+																<label class="form-label" for="email">Почта</label><span class="form-error" data-field-error></span>
+															</div>
+														</div>
+														<div class="delivery-form__4">
+															<div class="form-group" data-field-holder>
+																<input class="form-input js-phone" type="text" name="phone" id="phone" required>
+																<label class="form-label" for="phone">Телефон</label><span class="form-error" data-field-error></span>
+															</div>
+														</div>
+														<div class="delivery-form__4">
+															<div class="form-group" data-field-holder>
+																<input class="form-input" type="text" name="inn" id="inn" required>
+																<label class="form-label" for="inn">ИНН</label><span class="form-error" data-field-error></span>
+																<div class="delivery-form__text">Для таможенного оформления</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<aside class="content__aside">
+									<div class="delivery-aside">
+										<div class="delivery-info">
+											<div class="delivery-total">
+												<div class="delivery-total__title">Итого:</div>
+												<div class="delivery-total__desc js-total-price">2 101 063 сом</div>
+											</div>
+											<div class="delivery-info__items">
+												<div class="delivery-info__item">
+													<div class="delivery-info__text">203 товара</div>
+													<div class="delivery-info__desc">2 302 048 сом</div>
+												</div>
+												<div class="delivery-info__item">
+													<div class="delivery-info__text">Скидка</div>
+													<div class="delivery-info__desc">−200 985 сом</div>
+												</div>
+												<div class="delivery-info__item">
+													<div class="delivery-info__text">Доставка</div>
+													<div class="delivery-info__desc">Бесплатно</div>
+												</div>
+											</div>
+										</div>
+										<div class="delivery-block">
+											<div class="delivery-header for-desktop">
+												<div class="delivery-header__title">
+													 Доставка в пункт выдачи</div><a class="delivery-header__edit" href="javascript:void(0);" data-micromodal-trigger="modal-deliver">
+													<svg>
+														<use xlink:href="./images/sprites.svg#pencil"></use>
+													</svg></a>
+											</div>
+											<div class="delivery-address for-desktop">Бишкек, улица Ахматбека Суюмбаева, 12/1<br><span class="tooltip text-underline-dashed text-primary">5–8 фев
+													<div class="tooltip__body">Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно</div></span></div>
+											<div class="delivery-checkBlock">
+												<div class="check-block">Обратная доставка товаров на склад при отказе — 
+													<div class="text-green tooltip text-underline-dashed">бесплатно
+														<div class="tooltip__body">Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="delivery-block">
+											<div class="delivery-cart for-desktop">
+												<div class="delivery-header">
+													<div class="delivery-header__title">
+														 Оплата картой</div><a class="delivery-header__edit" href="#" data-micromodal-trigger="modal-cart">
+														<svg>
+															<use xlink:href="./images/sprites.svg#pencil"></use>
+														</svg></a>
+												</div>
+												<div class="js-append-card">
+													<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/mir.svg" alt="mir" width="30" height="10">
+														<div class="delivery-card__info">
+															<div class="delivery-card__number">1234 56•• •••• 1234</div>
+															<div class="delivery-card__date">01/30</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="delivery-checkBlock">
+												<input id="pay-now" type="checkbox" name="pay" hidden>
+												<label class="delivery-checkBlock__label form-checkbox" for="pay-now">Списать оплату сразу</label>
+												<div class="delivery-checkBlock__text">Спишем оплату с карты при получении</div>
+											</div>
+										</div>
+										<div class="delivery-submit">
+											<button class="button button-primary js-form-submit" type="submit">Заказать</button>
+											<div class="form-group">
+												<input id="agree" type="checkbox" name="agree" hidden>
+												<label class="delivery-checkBlock__label form-blackCheckbox" for="agree">Соглашаюсь с <a class="form-link" href="#">правилами пользования торговой площадкой </a>&nbsp;и <a class="form-link" href="#">возврата</a></label>
+											</div>
+										</div>
+									</div>
+								</aside>
+							</div>
+						</form>
+					</div>
+				</div>
+			</main><!-- END MAIN  --><!-- Footer Start -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__copyright">&copy; 2022  ООО «Товары и точка»</div>
+				</div>
+			</footer><!-- Footer END -->
+		</div><!-- END SITE  -->
+		<div class="modal micromodal-slide" id="modal-cart" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+				<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-cart-title">
+					<form class="modal__form">
+						<header class="modal__header">
+							<h2 class="modal__title" id="modal-cart-title">Способ оплаты</h2>
+							<button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+						</header>
+						<main class="modal__content" id="modal-cart-content">
+							<div class="modal__inputs">
+								<div class="form-group">
+									<input class="hidden" type="radio" name="pay" value="mir" id="mir" hidden checked>
+									<label class="cart-label" for="mir">
+										<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/mir.svg" alt="mir" width="30" height="10">
+											<div class="delivery-card__info">
+												<div class="delivery-card__number">1234 56•• •••• 1234</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="form-group">
+									<input class="hidden" type="radio" name="pay" value="visa" id="visa" hidden>
+									<label class="cart-label" for="visa">
+										<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/visa.svg" alt="visa" width="30" height="10">
+											<div class="delivery-card__info">
+												<div class="delivery-card__number">1234 56•• •••• 1234</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="form-group">
+									<input class="hidden" type="radio" name="pay" value="mastercard" id="mastercard" hidden>
+									<label class="cart-label" for="mastercard">
+										<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/mastercard.svg" alt="mastercard" width="30" height="10">
+											<div class="delivery-card__info">
+												<div class="delivery-card__number">1234 56•• •••• 1234</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="form-group">
+									<input class="hidden" type="radio" name="pay" value="maestro" id="maestro" hidden>
+									<label class="cart-label" for="maestro">
+										<div class="delivery-card__block"><img class="delivery-card__icon" src="./images/icons/maestro.svg" alt="maestro" width="30" height="10">
+											<div class="delivery-card__info">
+												<div class="delivery-card__number">1234 56•• •••• 1234</div>
+											</div>
+										</div>
+									</label>
+								</div>
+							</div>
+						</main>
+						<footer class="modal__footer">
+							<button class="modal__button button button-primary">Выбрать</button>
+						</footer>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal micromodal-slide" id="modal-deliver" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+				<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-deliver-title">
+					<form class="modal__form" action="/">
+						<header class="modal__header">
+							<h2 class="modal__title" id="modal-deliver-title">Способ доставки</h2>
+							<button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+						</header>
+						<main class="modal__content" id="modal-deliver-content">
+							<div class="tab-container">
+								<nav class="tab-nav">
+									<button class="tab-button" type="button" id="tab-a-btn" data-tab-content-id="tab-a-content">В пункт выдачи</button>
+									<button class="tab-button" type="button" id="tab-b-btn" data-tab-content-id="tab-b-content">Курьером</button>
+								</nav>
+								<div class="tab-title">Мои адреса</div>
+								<div class="tab-wrapper">
+									<div class="tab-content hidden" id="tab-a-content">
+										<div class="delivery__items">
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="address-0" hidden checked>
+														<label class="cart-label" for="address-0">г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1
+															<div class="delivery__punkt">
+																<div class="text-grey">Пункт выдачи</div>
+															</div>
+														</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="address-1" hidden>
+														<label class="cart-label" for="address-1">г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1
+															<div class="delivery__punkt">
+																<div class="rating">
+																	<svg class="rating__icon">
+																		<use xlink:href="./images/sprites.svg#star"></use>
+																	</svg>4.99
+																</div>
+																<div class="text-grey">Пункт выдачи</div>
+															</div>
+														</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="address-2" hidden>
+														<label class="cart-label" for="address-2">г. Бишкек, улица Табышалиева, д. 57
+															<div class="delivery__punkt">
+																<div class="rating">
+																	<svg class="rating__icon">
+																		<use xlink:href="./images/sprites.svg#star"></use>
+																	</svg>4.99
+																</div>
+																<div class="text-grey">Пункт выдачи</div>
+															</div>
+														</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+										</div>
+									</div>
+									<div class="tab-content hidden" id="tab-b-content">
+										<div class="delivery__items">
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="courier-0" hidden checked>
+														<label class="cart-label" for="courier-0">Бишкек, улица Табышалиева, 57</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="courier-1" hidden>
+														<label class="cart-label" for="courier-1">Бишкек, улица Жукеева-Пудовкина, 77/1</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+											<div class="delivery__item">
+												<div class="tab-group">
+													<div class="form-group">
+														<input class="hidden" type="radio" name="address" id="courier-2" hidden>
+														<label class="cart-label" for="courier-2">Бишкек, микрорайон Джал, улица Ахунбаева Исы, 67/1</label>
+													</div>
+												</div><a class="delivery__delete" href="#">
+													<svg>
+														<use xlink:href="./images/sprites.svg#delete"></use>
+													</svg></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</main>
+						<footer class="modal__footer">
+							<button class="modal__button button button-primary" type="submit">Выбрать</button>
+						</footer>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"> </script>
+		<script src="./js/vanillajs-validation.min.js?v=1695368022587"></script>
+		<script src="https://unpkg.com/imask"> </script>
+		<script src="./js/main.js?v=1695368022587"></script>
+	</body>
+</html>
